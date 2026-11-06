@@ -1,0 +1,57 @@
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Local Git history backups (created when history was rebuilt) ----
+.git-old-history/
+
+# ---- Dependencies ----
+node_modules/
+
+# ---- Secrets / local config ----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.jks
+*.p12
+*.mobileprovision
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ---- Node / tests ----
+coverage/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+
+# ---- Expo / React Native build output ----
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+DermaScanAI (build)/ios/
+DermaScanAI (build)/android/
+
+# ---- Large datasets & archives (GitHub blocks files >100 MB) ----
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+Datasets/
+
+# ---- IDE agent caches ----
+.qoder/
+
+# ---- Office temp/lock files ----
+~$*
